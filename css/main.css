@@ -671,7 +671,7 @@ textarea,
 		}
   }
 
-  @media screen and (max-width: 388px) {
+  @media screen and (max-width: 488px) {
 	.one-page-layout .home-heading {
 	  align-self: flex-start; margin-top: 7vh; text-align: left; padding-left: calc(20px + 17vw);
 	  }
