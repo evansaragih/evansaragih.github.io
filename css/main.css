@@ -665,16 +665,35 @@ textarea,
 		width: 50%;
 		height: 30%;
 	}
+
 	.home-job-title {
-		margin: 0 auto; white-space: normal; box-sizing: border-box; font-size: calc(12px + .14vw); font-weight: 700; position: absolute; bottom: 106%; color: #fff; text-align: right; text-transform: uppercase; letter-spacing: 2px; text-shadow: 0 0 8px rgba(0, 0, 0, 0.44);
+		font-size: calc(2px + .7vw);
+		}
+  }
+
+  @media screen and (max-width: 388px) {
+	.one-page-layout .home-heading {
+	  align-self: flex-start; margin-top: 7vh; text-align: left; padding-left: calc(20px + 17vw);
+	  }
+	  
+	.home-menu {
+		margin-top: 200px;
+		}
+
+	.home-bg-logo {
+		width: 80%;
+		height: 30%;
+		margin-top: 50%;
 	}
+	.home-job-title {
+		font-size: calc(2px + .7vw);
+		}
   }
   /* phone landscape */
   @media only screen and (max-device-width: 991px) and (max-device-height: 500px)  { 
 	.home-heading {
 		  text-align: center; 
 		  }
-  
   }
   
   .home-logo {
