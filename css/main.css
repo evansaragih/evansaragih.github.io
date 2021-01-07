@@ -652,7 +652,7 @@ textarea,
 	} 
   
   /* small screens */
-  @media screen and (max-width: 991px) {
+  @media screen and (max-width: 720px) {
 	.one-page-layout .home-heading {
 	  align-self: flex-start; margin-top: 7vh; text-align: left; padding-left: calc(20px + 17vw);
 	  }
@@ -671,7 +671,7 @@ textarea,
 		}
   }
 
-  @media screen and (max-width: 720px) {
+  @media screen and (max-width: 388px) {
 	.one-page-layout .home-heading {
 	  align-self: flex-start; margin-top: 7vh; text-align: left; padding-left: calc(20px + 17vw);
 	  }
