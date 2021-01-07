@@ -665,6 +665,9 @@ textarea,
 		width: 50%;
 		height: 30%;
 	}
+	.home-job-title {
+		margin: 0 auto; white-space: normal; box-sizing: border-box; font-size: calc(12px + .14vw); font-weight: 700; position: absolute; bottom: 106%; color: #fff; text-align: right; text-transform: uppercase; letter-spacing: 2px; text-shadow: 0 0 8px rgba(0, 0, 0, 0.44);
+	}
   }
   /* phone landscape */
   @media only screen and (max-device-width: 991px) and (max-device-height: 500px)  { 
