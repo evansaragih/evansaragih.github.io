@@ -838,6 +838,12 @@ _:-ms-fullscreen, :root .home-menu  { transform: translateY(-50%); }
 .home-loaded .home-menu p:nth-child(3) .item-name {
 	transition-delay: 1.6s;
 	}
+.home-loaded .home-menu p:nth-child(4) .item-name {
+	transition-delay: 1.9s;
+	}
+.home-loaded .home-menu p:nth-child(5) .item-name {
+	transition-delay: 2.2s;
+	}
 .home-loaded .home-menu .item-name {
 	transform: translateY(0%);
 	}
