@@ -16,11 +16,19 @@
     <meta name="author" content="Pixelwars" />
     <meta name="theme-color" content="#1755cf" />
 
-    <title>EVAN HIMAWAN SARAGIH - Wisuda Universitas Udayana</title>
+    <title>
+      Wisuda ke-140 Universitas Udayana - Evan Himawan Saragih, S.Kom
+    </title>
 
     <!-- FAV and TOUCH ICONS -->
-    <link rel="shortcut icon" href="images/ico/cc.ico" />
-    <link rel="apple-touch-icon" href="images/ico/ccn.png" />
+    <link
+      rel="shortcut icon"
+      href="https://image.psikolif.com/wp-content/uploads/2018/11/Logo-Unud-Universitas-Udayana-Original-Hitam-Putih.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      href="https://image.psikolif.com/wp-content/uploads/2018/11/Logo-Unud-Universitas-Udayana-Original-Hitam-Putih.png"
+    />
 
     <!-- FONTS -->
     <link rel="stylesheet" href="css/fonts/jost/jost.css" />
@@ -45,12 +53,139 @@
     />
     <link rel="stylesheet" type="text/css" href="css/main.css" />
     <link rel="stylesheet" type="text/css" href="css/768.css" />
+    <!-- Latest compiled and minified CSS -->
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
 
     <!-- INITIAL SCRIPTS -->
     <script src="js/jquery.js"></script>
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
   </head>
 
   <body>
+    <!-- Modal Undangan Wisuda -->
+    <div
+      class="modal fade"
+      id="undanganWisuda"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="exampleModalCenterTitle"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLongTitle">
+              Undangan Wisuda
+            </h5>
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Close"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <div class="alert alert-warning" role="alert">
+              <h4 class="alert-heading">Graduation Day!</h4>
+              <p style="font-size: large">
+                Dengan penuh rasa syukur dan sukacita, saya Evan Himawan Saragih
+                mengundang keluarga dan teman-teman saya pada acara Wisuda
+                ke-140 Universitas Udayana pada<br />
+                Hari: Sabtu, 27 Februari 2021<br />
+                Pukul: 09.00 AM - Sampai Selesai<br />
+                Dapat disaksikan melalui live streaming dari halaman website
+                ini, 27 Februari 2021 mulai pukul 08.30 AM
+              </p>
+              <hr />
+              <p class="mb-0">
+                Atas kehadirannya saya mengucapkan <b>Terimakasih</b>
+                #StaySafe #diRumahAja #WisudaOnline
+              </p>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-dismiss="modal"
+            >
+              Tutup
+            </button>
+            <!-- <button type="button" class="btn btn-primary">Save changes</button> -->
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Akhir Modal -->
+    <!-- Modal -->
+    <div
+      class="modal fade"
+      id="exampleModalCenter"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="exampleModalCenterTitle"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLongTitle">
+              Wisuda ke-140
+            </h5>
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Close"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <div class="alert alert-success" role="alert">
+              <h4 class="alert-heading">Horas! Puji Tuhan</h4>
+              <p>
+                Acara Wisuda ke-140 Universitas Udayana dapat berjalan dengan
+                lancar, saya mengucapkan terimakasih atas doa dan dukungan yang
+                diberikan. - Evan Himawan Saragih
+              </p>
+              <hr />
+              <p class="mb-0">
+                “Sukses bukanlah kebetulan. Ia terbentuk dari kerja keras
+                ketekunan, pembelajaran, pengorbanan, dan yang paling penting,
+                cinta akan hal yang sedang atau ingin kamu lakukan.” – Pele
+              </p>
+            </div>
+            <iframe
+              width="1280"
+              height="720"
+              src="https://www.youtube.com/embed/neQRchMUPpw"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+            ></iframe>
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-dismiss="modal"
+            >
+              Tutup
+            </button>
+            <!-- <button type="button" class="btn btn-primary">Save changes</button> -->
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Akhir Modal -->
     <!-- .home-wrap -->
     <div class="home-wrap">
       <!-- HOME BG IMAGE -->
@@ -76,6 +211,26 @@
         </p>
         <p id="portfolio-link">
           <span class="item-name" id="menu_1"></span>
+        </p>
+        <!-- Button trigger modal -->
+        <p
+          type="button"
+          data-toggle="modal"
+          data-target="#exampleModalCenter"
+          id="menu_3"
+        >
+          <span class="item-name"
+            ><span
+              class="badge badge-danger"
+              style="font-family: Arial, Helvetica, sans-serif"
+              >LIVE STREAMING</span
+            ><br />WISUDA ke-140</span
+          >
+        </p>
+        <p type="button" data-toggle="modal" data-target="#undanganWisuda">
+          <span class="item-name" id="menu_2" style="color: darkred"
+            >Undangan <i class="fas fa-bell"></i
+          ></span>
         </p>
         <!-- <a href="blog-latest.html" data-slug="blog">
           <span class="item-name" id="menu_2">Universitas Udayana</span>
@@ -184,7 +339,7 @@
 
     <script>
       // Set a valid end date
-      var countDownDate = new Date("Feb 27, 2021 08:55:00").getTime();
+      var countDownDate = new Date("Feb 27, 2021 08:30:00").getTime();
 
       // Update the count down every 1 second
       var x = setInterval(function () {
@@ -208,12 +363,16 @@
           days + " hari " + hours + " jam ";
         document.getElementById("menu_1").innerHTML =
           minutes + " menit " + seconds + " detik ";
+        $("#menu_3").attr("hidden", true);
 
         // If the countdown is finished, write some text
         if (distance < 0) {
           clearInterval(x);
-          document.getElementById("live_streaming").innerHTML =
-            "siaran langsung wisuda";
+          $("#menu_0").attr("hidden", true);
+          $("#live_streaming").attr("hidden", true);
+          $("#menu_1").attr("hidden", true);
+          $("#menu_3").attr("hidden", false);
+          // document.getElementById("menu_2").innerHTML = "Tata Cara";
         }
       }, 1000);
     </script>
